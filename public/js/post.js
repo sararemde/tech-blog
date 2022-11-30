@@ -5,7 +5,6 @@ const cancelBtn = document.querySelector("#cancelPost");
 const updateBtn = document.querySelector("#updatePost");
 const deleteBtn = document.querySelector("#deletePost");
 
-
 const cancelPostHandler = async (event) => {
     event.preventDefault();
     document.location.replace("/dashboard");
